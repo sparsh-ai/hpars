@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -ex
+
+# Create sub-folders in results
+mkdir -p ../results/demo_1
+mkdir -p ../results/demo_3
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+
+# Example illustrate the similarity measurement
+python -u demo_1.py "$@"
+
+# Basic example of the recommender system
+python -u demo_2.py "$@"
+
+# Example illustrate the experiment using k-fold cross-validation to evaluate the ERS
+python -u demo_3.py "$@"

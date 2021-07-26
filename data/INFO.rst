@@ -1,0 +1,5 @@
+This publication contains eights high-entropy data sets, which are used to evaluate evidence-based recommender system for high-entropy alloys. The eight data sets consisting of binary, ternary, quaternary, and quinary alloys comprising multiple equiatomically combined elements. The data sets consist of data from experiments and calculations. The alloys contained in the data sets comprise {Fe, Co, Ir, Cu, Ni, Pt, Pd, Rh, Au, Ag, Ru, Os, Si, As, Al, Tc, Re, Mn, Ta, Ti, W, Mo, Cr, V, Hf, Nb, and Zr}. 
+
+Alloys in this publication are represented using the binary elemental descriptors. Thus, an alloy is described by a 27-dimensional binary vector with elements of one or zero.
+
+Label of each alloy in the data sets can be either "High" or "Low", which indicates whether the alloy is an HEA. Any alloy is predicted as an HEA if its order-disorder transition temperature is below its melting temperature. The temperatures are collected from the reseach of Yoav Lederer.

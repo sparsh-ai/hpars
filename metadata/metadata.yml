@@ -1,0 +1,15 @@
+metadata_version: 1
+name: 'ERS Capsule: Source code for the paper "Evidence-based recommender system and experimental validation for high-entropy alloys"'
+description: The ERS is a comprehensive independence testing projects including source code of the recommender system, examples using ipython notebook and small data sets to demo the implementation. These tests contain 1) a basic example to show the commender system's usage, 2) an example to illustrate the similarity measurement and 3) an example to explain the method to evaluate the recommender system using an experiment with k-folds cross-validation.
+tags:
+- Evidence theory
+- High-entropy Alloys
+- Recommender systems
+- Material Science
+authors:
+- name: Hieu-Chi Dam
+  affiliations:
+  - name: Japan Advanced Institute of Science and Technology
+- name: Minh-Quyet Ha
+  affiliations:
+  - name: Japan Advanced Institute of Science and Technology
